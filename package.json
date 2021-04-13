@@ -1,0 +1,23 @@
+{
+  "name": "qieditor-template",
+  "version": "1.0.0",
+  "description": "QiEditor 页面开发/生成 模板",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qionline/Qieditor-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qionline/Qieditor-template/issues"
+  },
+  "homepage": "https://github.com/Qionline/Qieditor-template#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
