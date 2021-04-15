@@ -4,6 +4,8 @@
   "description": "QiEditor 页面开发/生成 模板",
   "main": "index.js",
   "scripts": {
+    "start":"npm run server",
+    "server": "nodemon server/index.js -e js,html --watch",
     "build": "node build/index.js"
   },
   "repository": {
@@ -19,5 +21,9 @@
   "homepage": "https://github.com/Qionline/Qieditor-template#readme",
   "dependencies": {
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
