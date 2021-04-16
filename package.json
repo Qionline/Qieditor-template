@@ -4,8 +4,8 @@
   "description": "QiEditor 页面开发/生成 模板",
   "main": "index.js",
   "scripts": {
-    "start":"npm run server",
-    "server": "nodemon server/index.js -e js,html --watch",
+    "start": "npm run server",
+    "server": "nodemon server/index.js -e js,html --watch & open-cli http://localhost:7707",
     "build": "node build/index.js"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "open-cli": "^6.0.1"
   }
 }
