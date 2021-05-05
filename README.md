@@ -5,14 +5,14 @@ QiEditor 页面开发/生成 模板
 ## 进行模板开发
 
 ```bash
-npm install
-npm start
+yarn
+yarn serve
 ```
 
 ## 生成配置文件
 
 ```bash
-npm run build
+yarn build
 ```
 
 生成的dist/.json文件交由运营进行配置即可

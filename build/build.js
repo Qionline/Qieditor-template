@@ -17,8 +17,7 @@ module.exports = content => {
   })
   //写入文件
   fs.writeFile(file, JSON.stringify(content), function (err) {
-    if (err) {
-      return console.log(err)
-    }
+    if (err) return console.log(`❌  Build Qi-template Error: ` + err)
+    else return console.log(`✨  Build \x1b[33m%s\x1b[0m complete!`, `dist/${content.filename}-build.json`)
   })
 }
