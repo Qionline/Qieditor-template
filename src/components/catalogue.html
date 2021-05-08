@@ -1,0 +1,50 @@
+<script qi-data>
+  return {
+    name: "目录介绍",
+  }
+</script>
+
+<div class="top-title">
+  <h4>目录介绍 📖</h4>
+  <p class="text-common flex-column">
+    <span> <b class="code">/build</b>将src下的代码转译为json文件的处理器（无特殊需求可忽略）</span>
+
+    <span><b class="code">/server</b>dev-server环境（无特殊需求可忽略）</span>
+
+    <span><b class="code">/src</b>业务代码部分，下文将详细介绍src中的目录结构与生成json文件的对应关系</span>
+  </p>
+
+  <h4>src与配置文件</h4>
+  <p class="text-common flex-column">
+    <span
+      ><b class="code">/src/css</b><br />
+      css部分编写，qieditor 会 将其通过style标签插入文本中
+    </span>
+    <span
+      ><b class="code">/src/js</b><br />
+      js部分编写，qieditor 会 将其通过script标签插入文本中，在路由中可选择在dom未加载或加载完成时执行
+    </span>
+    <span
+      ><b class="code">/src/main</b><br />
+      Main组件，对应于页面模板一栏，可上下拖拽调整位置，其特性导致其只可使用一次不可重复使用
+    </span>
+    <span
+      ><b class="code">/src/components</b><br />
+      Component组件对应于组件库一栏，可拖拽至页面模板中，其特性致其可重复使用
+    </span>
+    <span
+      ><b class="code">/src/router.js</b><br />
+      css，beforeLoadJsRouter，js，main，components 的路由配置，编辑器会按照配置的顺序进行加载，若不配置则不会加载
+    </span>
+    <span
+      ><b class="code">/src/config.js</b><br />
+      公共配置项，具体可见相应文件中的注释
+    </span>
+  </p>
+
+  <h4>main 与 components 书写规则</h4>
+  <p class="text-common">Main组件和Components组件一致，由一个特殊的script标签和常规的html文本流组成。其他详细特性可通过拖拽组件库中的<b class="code">组件特性</b>进行查看</p>
+  <p style="margin-top: 20px" class="text-common">
+    该标签写法为<b class="code">&lt;script qi-data&gt;&lt;/script&gt;</b>，编辑器会识别有 <b class="code">qi-data</b>属性的标签对其返回值进行解析。在该标签内部定义的变量可被当前文件调用，其他文件则不可调用。<br /><br />详细的变量规则可通过拖拽组件库中的<b class="code">变量规则</b>进行查看
+  </p>
+</div>

@@ -1,21 +1,32 @@
-# QiEditor-template
-QiEditor 页面开发/生成 模板
+<p align="center">
+ <img width="100px" src="https://cdn.jsdelivr.net/gh/Qionline/Qieditor-template/docs/logo.svg" align="center" alt="Qieditor Template" />
+ <h2 align="center">Qieditor Template</h2>
+ <p align="center">
+  <img src="https://github.com/aleen42/badges/raw/master/src/visual_studio_code_flat_square.svg?sanitize=true">
+  <img src="https://github.com/aleen42/badges/raw/master/src/javascript_flat_square.svg?sanitize=true">
+ </p>
+ <p align="center">Qieditor Template 是 Qieditor 模版生成器的一套开发解决方案。让前端开发者可以通过几乎和原生开发完全相同的模板开发体验！</p>
+</p>
 
 
-## 进行模板开发
+## 查看教程/模板开发
 
 ```bash
+git clone https://github.com/Qionline/Qieditor-template.git
+cd ./Qieditor-template
 yarn
 yarn serve
 ```
 
-## 生成配置文件
+接下来打开 `http://localhost:7707` 即可查看该工具的详细使用教程～
+
+## 生成配置
 
 ```bash
 yarn build
 ```
 
-生成的dist/.json文件交由运营进行配置即可
+生成的 `dist/[filename]-build.json` 文件交由运营进行配置即可
 
 ## 文件结构介绍
 

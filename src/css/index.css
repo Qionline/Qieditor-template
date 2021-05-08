@@ -1,20 +1,57 @@
-body,
-html {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	font-family: MyCustomFont, Montserrat-Bold, "arial black";
-	font-weight: 900;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	min-width: 320px;
-	max-width: 750px;
-	color: #428371;
+body {
+  background-color: #dcf1f5;
+}
+
+h3 {
+  margin: 0;
+  padding-block-start: 1em;
+  padding-block-end: 0.1rem;
+  font-size: 0.22rem;
+  text-align: center;
+  color: #77726c;
+}
+h4 {
+  margin-bottom: 0.1rem;
+  font-size: 0.2rem;
+  text-align: center;
+  color: #6c7177;
+}
+.top-title{
+  padding-bottom: 0.3rem;
+}
+.title-common {
+  margin: 0 auto;
+  padding: 0.2rem 0 0.1rem;
+  font-size: 0.13rem;
+}
+.text-common {
+  margin: 0 auto;
+  padding: 0.15rem 0.2rem;
+  width: 90%;
+  font-size: 0.13rem;
+  line-height: 0.22rem;
+  border-radius: 0.1rem;
+  box-sizing: border-box;
+}
+.top-title p {
+  line-height: 0.26rem;
+  color: #6c7177;
+  background-color: #ddd;
+}
+
+.code{
+  margin-inline: 0.06rem;
+  padding: 0.03rem 0.05rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #bbb;
+  border-radius: 0.05rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.26rem;
+}
+.flex-column > span + span {
+  margin-top: 0.12rem;
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="231px" viewBox="0 0 230 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Qieditor-template</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Qieditor-template">
+            <ellipse id="椭圆形" fill="#E07300" cx="115" cy="115.5" rx="115" ry="115.5"></ellipse>
+            <line x1="36.5838072" y1="100.757105" x2="73.7514216" y2="94.2428945" id="直线" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" transform="translate(55.583807, 97.257105) rotate(10.000000) translate(-55.583807, -97.257105) "></line>
+            <line x1="55" y1="103" x2="55" y2="149" id="直线-2" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></line>
+            <path d="M86,143 C86.8179941,127.666667 91.7724927,120 100.863496,120 C109.954499,120 114.664667,127.666667 114.994002,143 C114.994002,127.666667 120.014987,120 130.056957,120 C140.098927,120 144.297536,127.666667 142.652785,143" id="路径" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            <ellipse id="椭圆形" stroke="#FFFFFF" stroke-width="10" cx="180" cy="103" rx="21" ry="12"></ellipse>
+            <line x1="180" y1="120" x2="180" y2="166" id="直线-3" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

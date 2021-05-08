@@ -2,9 +2,8 @@
   "name": "qieditor-template",
   "version": "1.0.0",
   "description": "QiEditor 页面开发/生成 模板",
-  "main": "index.js",
   "scripts": {
-    "serve": "npx nodemon server/index.js -e js,html --watch",
+    "serve": "npx nodemon server/index.js -e css,js,html --watch",
     "build": "node build/index.js"
   },
   "repository": {

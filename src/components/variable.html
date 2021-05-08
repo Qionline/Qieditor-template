@@ -1,0 +1,67 @@
+<script qi-data>
+  return {
+    name: "变量规则",
+    params: {
+      testT: {
+        type: "text",
+        title: "文本类型",
+        value: "我是文本",
+      },
+      testR: {
+        type: "radio",
+        title: "单选类型",
+        value: "选项1",
+        radioArr: ["选项1", "选项2"],
+      },
+      testC: {
+        type: "color",
+        title: "颜色类型",
+        value: "#f00",
+      },
+      testArr: {
+        type: "array",
+        title: "列表类型",
+        template: "<div><h4 class='title-common'>列表类型</h4><div class='text-common yellow-p'><div>文本内容：<%testAT%></div><div>单选内容：<%testAR%></div></div></div>",
+        item: {
+          testAT: {
+            type: "text",
+            title: "列表文本类型",
+            value: "我是列表文本",
+          },
+          testAR: {
+            type: "radio",
+            title: "列表单选类型",
+            value: "列表选项1",
+            radioArr: ["列表选项1", "列表选项2"],
+          },
+        },
+        value: [],
+      },
+    },
+  }
+</script>
+
+<div class="top-title">
+  <h3>变量与调用方式</h3>
+  <h4>关键字</h4>
+  <p class="text-common">
+    系统默认变量，可直接调用。自定义变量时需避免使用关键字变量。关键字具体可见:<a target="_blank" href="https://github.com/Qionline/Qieditor#qieditor-%E5%85%B3%E9%94%AE%E5%AD%97">此处文档</a>
+  </p>
+  <h4>全局变量</h4>
+  <p class="text-common">在 <b class="code">src/config.js</b>中进行配置，可在任意组件中调用</p>
+  <h4>局部变量</h4>
+  <p class="text-common">在相应的 <b class="code">main</b> 或 <b class="code">components</b> 文件中进行配置，只能作用于当前组件</p>
+  <h4>变量定义规则</h4>
+  <p class="text-common">定义变量是Qietitor的核心，使得具有相同样式不同文案的页面可通过配置进行页面的生成工作。接下来点击右上方的<b class="code">组件配置</b>，尝试修改其中的参数值，并查看下方效果</p>
+  <div style="width: 90%; margin: 0.2rem auto; border: 1px solid #ccc">
+    <h4 class="title-common">文本类型</h4>
+    <div class="text-common"><%testT%></div>
+    <h4 class="title-common">单选类型</h4>
+    <div class="text-common"><%testR%></div>
+    <h4 class="title-common">颜色类型</h4>
+    <div style="color: <%testC%>" class="text-common">可配置修改颜色</div>
+    <%testArr%>
+  </div>
+  <h4>变量调用方式</h4>
+  <p class="text-common">结合上方变量定义规则，查看<b class="code">/src/components/variable.html</b>中的内容即可</p>
+</div>
