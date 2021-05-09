@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://cdn.jsdelivr.net/gh/Qionline/Qieditor-template/docs/logo.svg" align="center" alt="Qieditor Template" />
+ <img width="100px" src="https://cdn.jsdelivr.net/gh/Qionline/Qieditor-template/docs/icon.svg" align="center" alt="Qieditor Template" />
  <h2 align="center">Qieditor Template</h2>
  <p align="center">
   <img src="https://github.com/aleen42/badges/raw/master/src/visual_studio_code_flat_square.svg?sanitize=true">
