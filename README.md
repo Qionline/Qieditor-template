@@ -13,8 +13,17 @@
 
 ```bash
 git clone https://github.com/Qionline/Qieditor-template.git
+```
+
+```bash
 cd ./Qieditor-template
+```
+
+```bash
 yarn
+```
+
+```bash
 yarn serve
 ```
 
